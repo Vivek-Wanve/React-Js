@@ -18,7 +18,7 @@ function App() {
     if(charAllowed) str = str + "!@#$%^&*-_+=[]{}~`"
 
     for(let i=1; i<=length; i++){
-      let ind = Math.floor(Math.random()*str.length + 1)
+      let ind = Math.floor(Math.random()*str.length)
       pass = pass + str.charAt(ind)
     }
 
